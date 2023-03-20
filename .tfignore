@@ -1,5 +1,5 @@
 ﻿################################################################################
-# .tfignore for Dynamics 365 Finance and Operations apps - v10.0.31
+# .tfignore for Dynamics 365 Finance and Operations apps - v10.0.32
 ################################################################################
 
 #Exclude not source control related folders
@@ -200,3 +200,10 @@ DBSynchronization.xml
 #10.0.30
 \BusinessIntelligence
 \MonitoringAndTelemetry
+
+#10.0.32
+\ArchiveService
+\ExportControl
+\FinTag
+\GlobalizationLTM
+\Microservices
