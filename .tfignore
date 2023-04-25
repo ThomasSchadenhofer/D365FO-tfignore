@@ -1,5 +1,5 @@
 ﻿################################################################################
-# .tfignore for Dynamics 365 Finance and Operations apps - v10.0.32
+# .tfignore for Dynamics 365 Finance and Operations apps - v10.0.34
 ################################################################################
 
 #Exclude not source control related folders
@@ -11,6 +11,8 @@
 # \Model\XppMetadata
 
 #Exclude specific files
+AppCheck.xml
+AppCheckerResult.xml
 BPCheck.xml
 BuildModelResult.xml
 BuildModelResult.err.xml
@@ -23,6 +25,8 @@ DBSynchronization.xml
 #Exclude specific folders
 \Delta
 \GeneratedXppSource
+\Resources
+\XppMetadata
 
 #Exlude all system package folders
 \AccountsPayableMobile
@@ -207,3 +211,8 @@ DBSynchronization.xml
 \FinTag
 \GlobalizationLTM
 \Microservices
+
+#10.0.34
+\ATLTestCaseCommon
+\Bundle
+\WHSTests
