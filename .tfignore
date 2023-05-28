@@ -1,4 +1,4 @@
-﻿################################################################################
+################################################################################
 # .tfignore for Dynamics 365 Finance and Operations apps - v10.0.34
 ################################################################################
 
@@ -217,3 +217,10 @@ DBSynchronization.xml
 \ATLTestCaseCommon
 \Bundle
 \WHSTests
+
+#10.0.35
+\Globalizationfeature
+\ProcessAdvisorIntegration
+\WarehouseOrders
+\WarehouseOrdersIntegration
+
