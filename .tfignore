@@ -1,5 +1,5 @@
 ################################################################################
-# .tfignore for Dynamics 365 Finance and Operations apps - v10.0.39
+# .tfignore for Dynamics 365 Finance and Operations apps - v10.0.40
 ################################################################################
 
 #Exclude not source control related folders
@@ -231,3 +231,6 @@ DBSynchronization.xml
 
 #10.0.39
 \ATLGlobalizationLTM
+
+#10.0.40
+\UbiquitousBuying
